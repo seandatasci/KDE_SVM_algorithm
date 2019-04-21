@@ -1,3 +1,4 @@
+#Julia 1.0.1
 #An algorithm which combines kernel density estimation and soft margin support vector machines to create optimized separating boundaries.
 
 using Plots, Roots, Optim, StatsBase, LinearAlgebra, Statistics, Random; Random.seed!(97)
