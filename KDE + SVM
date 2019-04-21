@@ -1,5 +1,10 @@
-#Julia 1.0.1
-#An algorithm which combines kernel density estimation and soft margin support vector machines to create optimized separating boundaries.
+"""
+Julia 1.0.1
+
+An algorithm which combines kernel density estimation and soft margin support vector machines to create optimized separating boundaries.
+kde is assigned a mass of 1 to each point. This is something we could optimize based on the data.
+There is a quadratic decision boundary, but this is obviously arbitrary. One could easily scale up or down depending on one's reasons.
+"""
 
 using Plots, Roots, Optim, StatsBase, LinearAlgebra, Statistics, Random; Random.seed!(97)
 
