@@ -1,0 +1,16 @@
+# Native TensorFLow implementation of Mixup algorithm
+    final_imgs = np.array(final_imgs, np.float32)
+    MIXUP = 1
+    if MIXUP:
+      weight = np.random.beta(1.0, 1.0, self.hparams.batch_size)
+      x_weight = weight.reshape(self.hparams.batch_size, 1, 1, 1)
+      y_weight = weight.reshape(self.hparams.batch_size, 1)
+      index = np.random.permutation(self.hparams.batch_size)
+      x1, x2 = final_imgs, final_imgs[index]
+      x__ = x1 * x_weight + x2 * (1 - x_weight)
+      y1, y2 = labels, labels[index]
+      y__ = y1 * y_weight + y2 * (1 - y_weight)
+      batched_data = (x__, y__)
+    else:
+      batched_data = (final_imgs, labels)
+    self.curr_train_index += self.hparams.batch_size
