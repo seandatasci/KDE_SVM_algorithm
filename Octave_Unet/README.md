@@ -16,7 +16,7 @@ With a few fixes from their paper to achieve better performance:
     1) Deeper network with more parameters    
     2) Added dropout only in deepest layer  
     3) Utilizing rectified ADAM optimizer  
-    4) Ocatve transposed H→L kernels first apply vanilla transposed convolution and then downsample output by   
+    4) Octave transposed H→L kernels first apply vanilla transposed convolution and then downsample output by   
     a scale of two, which better follows the rigor of the orginal octave convolution paper   
 
 Google Colab example: https://colab.research.google.com/drive/1WcBaJMnwGIuMY_SWH3qNI5OyXd8KTYTO
