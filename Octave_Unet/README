@@ -1,14 +1,16 @@
 Keras implementation of an Octave Convolution Unet for image segemntation and transposed octave convolutions.
 
 Inspiried by:
-'''@misc{fan2019accurate,
+'''
+@misc{fan2019accurate,
     title={Accurate Retinal Vessel Segmentation via Octave Convolution Neural Network},
     author={Zhun Fan and Jiajie Mo and Benzhang Qiu and Wenji Li and Guijie Zhu and Chong Li and Jianye Hu and Yibiao Rong and Xinjian Chen},
     year={2019},
     eprint={1906.12193},
     archivePrefix={arXiv},
     primaryClass={eess.IV}
-}'''
+}
+'''
 
 With a few fixes from their paper to achieve better performance:
     1) Deeper network with more parameters
