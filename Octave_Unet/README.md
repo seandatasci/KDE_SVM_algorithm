@@ -1,6 +1,6 @@
 ### Keras implementation of an Octave Convolution Unet for image segmentation and transposed octave convolutions
 
-Inspiried by:
+Inspired by:
 
     @misc{fan2019accurate,
     title={Accurate Retinal Vessel Segmentation via Octave Convolution Neural Network},
@@ -18,3 +18,4 @@ With a few fixes from their paper to achieve better performance:
     3) Utilizing rectified ADAM optimizer  
     4) H→L kernels first apply vanilla transposed convolution and then downsample output by a scale of two, which                               better follows the rigor of the orginal octave convolution paper   
 
+Google Colab example: https://colab.research.google.com/drive/1WcBaJMnwGIuMY_SWH3qNI5OyXd8KTYTO
