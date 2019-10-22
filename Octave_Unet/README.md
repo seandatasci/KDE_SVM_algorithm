@@ -1,4 +1,4 @@
-### Keras implementation of an Octave Convolution Unet for image segmentation and transposed octave convolutions
+### Keras/Tensorflow 2.0 implementation of an Octave Convolution Unet for image segmentation and transposed octave convolutions
 
 Inspired by:
 
