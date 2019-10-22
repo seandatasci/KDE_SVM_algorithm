@@ -1,4 +1,4 @@
-Keras implementation of an Octave Convolution Unet for image segemntation and transposed octave convolutions.
+## Keras implementation of an Octave Convolution Unet for image segemntation and transposed octave convolutions.
 
 Inspiried by:
 
