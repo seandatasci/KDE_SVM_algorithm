@@ -20,3 +20,23 @@ With a few fixes from their paper to achieve better performance:
     a scale of two, which better follows the rigor of the orginal octave convolution paper   
 
 Google Colab example: https://colab.research.google.com/drive/1WcBaJMnwGIuMY_SWH3qNI5OyXd8KTYTO
+    
+Octave Convolutions:
+    @misc{chen2019drop,
+    title={Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution},
+    author={Yunpeng Chen and Haoqi Fan and Bing Xu and Zhicheng Yan and Yannis Kalantidis and Marcus Rohrbach and Shuicheng Yan and Jiashi Feng},
+    year={2019},
+    eprint={1904.05049},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+    }
+    
+Unet:
+    @misc{ronneberger2015unet,
+    title={U-Net: Convolutional Networks for Biomedical Image Segmentation},
+    author={Olaf Ronneberger and Philipp Fischer and Thomas Brox},
+    year={2015},
+    eprint={1505.04597},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+    }
