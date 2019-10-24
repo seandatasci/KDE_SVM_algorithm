@@ -22,6 +22,7 @@ With a few fixes from their paper to achieve better performance:
 Google Colab example: https://colab.research.google.com/drive/1WcBaJMnwGIuMY_SWH3qNI5OyXd8KTYTO
     
 Octave Convolutions:
+
     @misc{chen2019drop,
     title={Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution},
     author={Yunpeng Chen and Haoqi Fan and Bing Xu and Zhicheng Yan and Yannis Kalantidis and Marcus Rohrbach and Shuicheng Yan and Jiashi Feng},
@@ -32,6 +33,7 @@ Octave Convolutions:
     }
     
 Unet:
+
     @misc{ronneberger2015unet,
     title={U-Net: Convolutional Networks for Biomedical Image Segmentation},
     author={Olaf Ronneberger and Philipp Fischer and Thomas Brox},
