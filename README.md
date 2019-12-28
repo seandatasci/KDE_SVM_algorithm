@@ -1,2 +1,1 @@
-# ML-Research
-new algorithms, loss functions, paper code and more
+# Kernel Density Estimator using Support Vector Machine as a prior
